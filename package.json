@@ -114,7 +114,7 @@
     "@types/chrome": "0.0.122",
     "@types/classnames": "2.2.10",
     "@types/command-exists": "1.2.0",
-    "@types/d3-axis": "1.0.12",
+    "@types/d3-axis": "1.0.19",
     "@types/d3-scale": "2.2.0",
     "@types/d3-selection": "1.4.1",
     "@types/d3-shape": "1.3.2",
