@@ -1,9 +1,9 @@
-FROM sourcegraph/alpine:3.12@sha256:133a0a767b836cf86a011101995641cf1b5cbefb3dd212d78d7be145adde636d as libsqlite3-pcre
+FROM sourcegraph/alpine:3.12@sha256:ce099fbcd3cf70b338fc4cb2a4e1fa9ae847de21afdb0a849a393b87d94fb174 as libsqlite3-pcre
 
 COPY libsqlite3-pcre-install-alpine.sh /libsqlite3-pcre-install-alpine.sh
 RUN /libsqlite3-pcre-install-alpine.sh
 
-FROM sourcegraph/alpine:3.12@sha256:133a0a767b836cf86a011101995641cf1b5cbefb3dd212d78d7be145adde636d
+FROM sourcegraph/alpine:3.12@sha256:ce099fbcd3cf70b338fc4cb2a4e1fa9ae847de21afdb0a849a393b87d94fb174
 # TODO(security): This container should not be running as root!
 #
 # The default user in sourcegraph/alpine is a non-root `sourcegraph` user but because old deployments
