@@ -1816,7 +1816,7 @@
     is-promise "4.0.0"
     tslib "~2.0.0"
 
-"@hot-loader/react-dom@^16.13.0", "react-dom@npm:@hot-loader/react-dom@^16.13.0":
+"@hot-loader/react-dom@^16.13.0":
   version "16.13.0"
   resolved "https://registry.npmjs.org/@hot-loader/react-dom/-/react-dom-16.13.0.tgz#de245b42358110baf80aaf47a0592153d4047997"
   integrity sha512-lJZrmkucz2MrQJTQtJobx5MICXcfQvKihszqv655p557HPi0hMOWxrNpiHv3DWD8ugNWjtWcVWqRnFvwsHq1mQ==
@@ -2720,8 +2720,7 @@
   integrity sha512-KWxkyphmlwam8kfYPSmoitKQRMGQCsr1ZRmNZgijT7ABKaVyk/+I5ezt2J213tM04Hi0vyg4L7iH1VCkNvm2Jw==
 
 "@sourcegraph/extension-api-types@link:packages/@sourcegraph/extension-api-types":
-  version "0.0.0"
-  uid ""
+  version "2.1.0"
 
 "@sourcegraph/prettierrc@^3.0.3":
   version "3.0.3"
@@ -3568,10 +3567,10 @@
     "@types/node" "*"
     "@types/responselike" "*"
 
-"@types/chai-as-promised@7.1.3":
-  version "7.1.3"
-  resolved "https://registry.npmjs.org/@types/chai-as-promised/-/chai-as-promised-7.1.3.tgz#779166b90fda611963a3adbfd00b339d03b747bd"
-  integrity sha512-FQnh1ohPXJELpKhzjuDkPLR2BZCAqed+a6xV4MI/T3XzHfd2FlarfUGUdZYgqYe8oxkYn0fchHEeHfHqdZ96sg==
+"@types/chai-as-promised@7.1.8":
+  version "7.1.8"
+  resolved "https://registry.npmjs.org/@types/chai-as-promised/-/chai-as-promised-7.1.8.tgz#f2b3d82d53c59626b5d6bbc087667ccb4b677fe9"
+  integrity sha512-ThlRVIJhr69FLlh6IctTXFkmhtP3NpMZ2QGq69StYLyKZFp/HOp1VdKZj7RvfNWYYcJ1xlbLGLLWj1UvP5u/Gw==
   dependencies:
     "@types/chai" "*"
 
@@ -18738,6 +18737,16 @@ react-dom@^16.8.3:
     prop-types "^15.6.2"
     scheduler "^0.15.0"
 
+"react-dom@npm:@hot-loader/react-dom@^16.13.0":
+  version "16.13.0"
+  resolved "https://registry.npmjs.org/@hot-loader/react-dom/-/react-dom-16.13.0.tgz#de245b42358110baf80aaf47a0592153d4047997"
+  integrity sha512-lJZrmkucz2MrQJTQtJobx5MICXcfQvKihszqv655p557HPi0hMOWxrNpiHv3DWD8ugNWjtWcVWqRnFvwsHq1mQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.0"
+
 react-draggable@^4.0.0, react-draggable@^4.0.3:
   version "4.3.1"
   resolved "https://registry.npmjs.org/react-draggable/-/react-draggable-4.3.1.tgz#f9c0cdcf2279ec5b79c65b70cdfd9361d82fa9ee"
@@ -20870,8 +20879,7 @@ sourcegraph@^24.0.0:
   integrity sha512-PlGvkdBy5r5iHdKAVNY/jsPgWb3oY+2iAdIQ3qR83UHhvBFVgoctDAnyfJ1eMstENY3etBWtAJ8Kleoar3ecaA==
 
 "sourcegraph@link:packages/sourcegraph-extension-api":
-  version "0.0.0"
-  uid ""
+  version "24.7.0"
 
 space-separated-tokens@^1.0.0:
   version "1.1.2"
