@@ -81,7 +81,7 @@
     "@graphql-codegen/cli": "1.17.8",
     "@graphql-codegen/typescript": "1.17.9",
     "@graphql-codegen/typescript-operations": "1.17.8",
-    "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "@mermaid-js/mermaid-cli": "^8.7.0",
     "@octokit/rest": "^16.36.0",
     "@percy/puppeteer": "^1.1.0",
